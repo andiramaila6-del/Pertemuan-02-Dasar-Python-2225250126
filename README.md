@@ -76,6 +76,4 @@ Melalui praktikum ini saya mempelajari penggunaan variabel, input dan output, ti
 
 ## Sumber
 
-1. Modul Algoritma dan Pemrograman Pertemuan 02.
-2. Dokumentasi Python: https://docs.python.org/3/
-3. Visual Studio Code Documentation: https://code.visualstudio.com/docs
+1. Modul Bahan Ajar Pertemuan 02 Algoritma dan Pemrograman - Dr. Aan Hendrayana, S.Si., M.Pd.
