@@ -36,6 +36,8 @@ python latihan/04_nilai_akhir.py
 python tugas/kalkulator_koordinat.py
 
 ## Flowchart Program
+
+```mermaid
 graph TD
     Start([Start]) --> Input1[/Input x1, y1/]
     Input1 --> Input2[/Input x2, y2/]
@@ -44,4 +46,3 @@ graph TD
     Process2 --> Process3["Hitung Midpoint:<br>xm = (x1 + x2) / 2<br>ym = (y1 + y2) / 2"]
     Process3 --> Output[/Tampilkan dx, dy, Jarak, Midpoint/]
     Output --> End([End])
-    
