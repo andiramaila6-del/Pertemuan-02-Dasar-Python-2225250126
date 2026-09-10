@@ -1,34 +1,81 @@
-# Pertemuan 02 - Dasar Python
+# Tugas Algoritma dan Pemrograman
 
-**Nama:** Maila Andira Putri  
-**NIM:** 2225250126  
-**Kelas:** 3A  
-**Mata Kuliah:** Algoritma dan Pemrograman  
+## Identitas Mahasiswa
 
----
-
-## Deskripsi Repository
-Repository ini berisi latihan dasar pemrograman Python (variabel, tipe data, input-output, operator) serta tugas utama berupa kalkulator koordinat dua titik.
+- Nama  : Maila Andira Putri
+- NIM   : 2225250126
+- Kelas : 3A
 
 ---
 
-## Struktur Berkas
-- `Latihan/`: Berisi kode latihan dasar Python.
-  - `01_Biodata.py`: Menghitung umur berdasarkan tahun lahir.
-  - `02_Persegi_Panjang.py`: Menghitung luas dan keliling persegi panjang.
-  - `03_Konversi_Suhu.py`: Konversi suhu Celsius ke Fahrenheit dan Kelvin.
-  - `04_Nilai_Akhir.py`: Menghitung nilai akhir berbobot.
-- `Tugas/`:
-  - `Kalkulator_Koordinat.py`: Menghitung $dx$, $dy$, jarak Euclidean, dan titik tengah dari dua koordinat.
+## Tujuan Repositori
+
+Repositori ini dibuat untuk menyimpan dan mendokumentasikan hasil latihan serta tugas praktikum mata kuliah Algoritma dan Pemrograman Pertemuan 02. Seluruh program ditulis menggunakan bahasa Python dan dikerjakan menggunakan Visual Studio Code.
+
+---
+
+## Daftar dan Fungsi Berkas
+
+### Folder Latihan
+
+| Berkas | Fungsi |
+|---------|---------|
+| 01_biodata.py | Menampilkan biodata dan menghitung perkiraan umur berdasarkan tahun lahir. |
+| 02_persegi_panjang.py | Menghitung luas dan keliling persegi panjang. |
+| 03_konversi_suhu.py | Mengonversi suhu Celsius ke Fahrenheit dan Kelvin. |
+| 04_nilai_akhir.py | Menghitung nilai akhir berdasarkan bobot tugas, UTS, dan UAS. |
+
+### Folder Tugas
+
+| Berkas | Fungsi |
+|---------|---------|
+| kalkulator_koordinat.py | Menghitung perubahan koordinat, jarak Euclidean, dan titik tengah dua titik. |
 
 ---
 
 ## Cara Menjalankan Program
-Jalankan perintah berikut di terminal VS Code:
+
+1. Buka Terminal atau Git Bash.
+2. Masuk ke folder proyek.
 
 ```bash
-# Menjalankan latihan
-python Latihan/01_Biodata.py
+cd nama-folder-proyek
+```
 
-# Menjalankan tugas utama
-python Tugas/Kalkulator_Koordinat.py
+3. Jalankan program Python.
+
+Contoh:
+
+```bash
+python latihan/01_biodata.py
+```
+
+atau
+
+```bash
+python tugas/kalkulator_koordinat.py
+```
+
+---
+
+## Hasil Test Case Tugas Utama
+
+| Kasus | Titik A | Titik B | Jarak | Titik Tengah |
+|---------|---------|---------|---------|---------|
+| 1 | (0, 0) | (3, 4) | 5.00 | (1.50, 2.00) |
+| 2 | (-2, 1) | (4, 1) | 6.00 | (1.00, 1.00) |
+| 3 | (2.5, -1) | (2.5, 3) | 4.00 | (2.50, 1.00) |
+
+---
+
+## Refleksi
+
+Melalui praktikum ini saya mempelajari penggunaan variabel, input dan output, tipe data, operasi aritmatika, konstanta, formatting output menggunakan f-string, serta penerapan rumus matematika sederhana dalam pemrograman Python. Saya juga belajar menggunakan Git dan GitHub untuk menyimpan serta mengelola proyek pemrograman.
+
+---
+
+## Sumber
+
+1. Modul Algoritma dan Pemrograman Pertemuan 02.
+2. Dokumentasi Python: https://docs.python.org/3/
+3. Visual Studio Code Documentation: https://code.visualstudio.com/docs
