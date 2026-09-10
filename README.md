@@ -35,7 +35,7 @@ python Tugas/Kalkulator_Koordinat.py
 
 ## Flowchart Program
 
-```mermaid
+mermaid
 graph TD
     A([Start]) --> B[/Input x1, y1/]
     B --> C[/Input x2, y2/]
@@ -44,4 +44,3 @@ graph TD
     E --> F["Hitung Midpoint:<br>xm = (x1 + x2) / 2<br>ym = (y1 + y2) / 2"]
     F --> G[/Tampilkan dx, dy, Jarak, Midpoint/]
     G --> H([End])
-    
